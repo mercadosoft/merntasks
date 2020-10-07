@@ -1,0 +1,19 @@
+{
+  "name": "merntasksservidor",
+  "version": "1.0.0",
+  "description": "MERN API para MERN Tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercadosoft/merntasks-server.git"
+  },
+  "author": "Esteban Burgos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mercadosoft/merntasks-server/issues"
+  },
+  "homepage": "https://github.com/mercadosoft/merntasks-server#readme"
+}
