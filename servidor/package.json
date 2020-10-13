@@ -4,16 +4,20 @@
   "description": "MERN API para MERN Tasks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mercadosoft/merntasks-server.git"
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "author": "Esteban Burgos",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mercadosoft/merntasks-server/issues"
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   },
-  "homepage": "https://github.com/mercadosoft/merntasks-server#readme"
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.8"
+  }
 }
