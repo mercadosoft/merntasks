@@ -9,6 +9,8 @@ const Barra = () => {
 
     useEffect(() => {
         usuarioAutenticado();
+        // Agregando la dependencia no es posible cerrar sesion, la app se cicla 
+        // eslint-disable-next-line
     }, [])
     
     return (

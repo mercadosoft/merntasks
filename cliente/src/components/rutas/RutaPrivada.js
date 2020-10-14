@@ -9,6 +9,8 @@ const RutaPrivada = ({ component: Component, ...props }) => {
 
     useEffect(() => {
         usuarioAutenticado();
+        // Agregando la dependencia la app produce un error e informa la usuario 
+        // eslint-disable-next-line
     }, []);
 
     return ( 
